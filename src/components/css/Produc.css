@@ -1,0 +1,30 @@
+.fondo{
+    padding-top: 70px;
+}
+.parra-p{
+    text-align: center;    
+    color: white;
+    float: right;
+    display: block;
+    width: 38%;
+    font-size: 50px;
+    margin-top: 15%;
+    margin-right: 5%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.sub-f{
+    background: black;
+}
+.fon2{
+    font-family: 'Playfair Display', serif;
+    padding-top: 20px;
+    height: 120px;
+    text-align: center;
+}
+.fon2 h3{
+    font-size: 38px;
+    color: white;   
+}
+.sli2{
+    margin-top: 0;
+}

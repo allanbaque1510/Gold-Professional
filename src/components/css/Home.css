@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Prata&display=swap');
+.contenedor{
+    padding-top: 70px;
+}
+.fondo-h{
+    background-image: url(../image/phome.jpg);
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    background-position-x: center;
+    margin-left:10%;
+    position: absolute;
+}
+.text-h{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 40px;
+}
+.tlt-h{
+    margin-top: 40px;
+    text-align: center ;
+    font-family: 'Prata', serif;
+    padding-top: 20px;
+}
+.tlt-p{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 50%;
+    margin-bottom: auto;
+}
+.tlt-p span{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+}
+.cont-t{
+    margin-top: 335px;
+}
+.slider{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 550px;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;   
+    width: 305%;
+    animation: cambio 10s infinite;
+    padding: 0;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.ima-sl{
+    width: 100%;
+}
+@keyframes cambio {
+    20%{margin-left: -102%;}
+    45%{margin-left: -102%;}
+    65%{margin-left: -204%;}
+    80%{margin-left: -204%;}
+    95%{margin-left: 0%;}
+    100%{margin-left: 0%;}
+}
+@media screen and (max-width: 1024px) {
+    .slider{
+        width: 80%;
+    }
+    .fondo-h{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .tlt-p{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 500px){
+    .text-h{
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    .slider{
+        width: 90%;
+    }
+    .fondo-h{
+        height: 320px;
+        width: 96%;
+        margin-left: 2%;
+    }
+    .tlt-p{
+        width: 80%;
+        padding-inline: 10px;
+    }
+    .cont-t{
+        margin-top: 250px;
+    }
+    .tlt-h{
+        font-size: 30px;
+    }
+}

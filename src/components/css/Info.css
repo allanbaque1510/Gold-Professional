@@ -1,0 +1,112 @@
+.fondo{
+    padding-top: 100px;
+}
+.valores{
+    text-align: center;
+    margin-top: 20px;
+}
+.mivi{
+    display: inline-block;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+   
+}
+
+.submivi{
+    font-family: 'Gothic A1', sans-serif;
+}
+.imagen{
+    width: 100%;
+    
+}
+.ima-in{
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    object-fit: scale-down;
+}
+.subt{
+    position:initial !important; 
+    width: 500px;
+    float: right;
+    margin-top: 9%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    filter: invert();
+}
+.elg{
+    margin-top: 50px;
+    background-image:linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0.808) 19%, rgba(255, 255, 255, 0.336) 33%, rgba(255, 255, 255, 0) 37%), url(../image/portada.jpg);
+    height: 600px;
+    width: auto;
+    
+    background-size: cover;
+    background-position: center;
+}
+.gr{
+    display: grid;
+    gap: 1.75rem;
+    grid-template-columns:repeat(auto-fill, minmax(450px, .54fr));
+    margin-inline: 4%;
+    justify-content: center;
+}
+.gr1{
+    
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1030px) {
+    .elg{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .elg{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .elg{
+        height: 350px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .elg{
+        height: 320px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .elg{
+        height: 300px;
+    }
+    .gr{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns:repeat(auto-fill, minmax(250px, .54fr));
+        margin-inline: 4%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 290px) {
+    .elg{
+        height: 300px;
+        width: 365px
+    }
+    
+    .gr{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns:repeat(auto-fill, minmax(250px, .54fr));
+        margin-inline: 4%;
+        justify-content: center;
+    }
+}
