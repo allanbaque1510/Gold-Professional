@@ -8,4 +8,4 @@ Animate.css ,  bootstrap , emailjs-com , firebase , react-router-dom
 
 ## Pagina en produccion
 
-### `https://goldproffesional.web.app/)https://goldproffesional.web.app/`
+### `https://goldproffesional.web.app/`
